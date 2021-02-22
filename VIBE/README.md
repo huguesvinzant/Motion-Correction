@@ -1,4 +1,5 @@
 # VIBE: Video Inference for Human Body Pose and Shape Estimation [CVPR-2020]
+
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1912.05656) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dFfwxZ52MN86FA6uFNypMEdFShd2euQA) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vibe-video-inference-for-human-body-pose-and/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=vibe-video-inference-for-human-body-pose-and)
 
 <p float="center">
@@ -112,7 +113,7 @@ python lib/utils/fbx_output.py \
     --gender <male or female> \
     --person_id <tracklet id from VIBE output>
 
-``` 
+```
 ### Windows Installation Tutorial
 
 You can follow the instructions provided by [@carlosedubarreto](https://github.com/carlosedubarreto) to install and run VIBE on a Windows machine:
@@ -137,7 +138,7 @@ python train.py --cfg configs/config.yaml
 
 Note that the training datasets should be downloaded and prepared before running data processing script.
 Please see [`doc/train.md`](doc/train.md) for details on how to prepare them.
- 
+
 ## Evaluation
 
 Here we compare VIBE with recent state-of-the-art methods on 3D pose estimation datasets. Evaluation metric is
