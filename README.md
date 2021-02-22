@@ -61,7 +61,7 @@ Moving version of these corrections can be observed in:
 <p float="center">
   <img src="images/pip1.gif" width="49%" />
   <img src="images/pip2.gif" width="49%" />
-  <img src="images/pip3.gif" width="49%" />
   <img src="images/pip4.gif" width="49%" />
+  <img src="images/pip3.gif" width="49%" />
 </p>
 
