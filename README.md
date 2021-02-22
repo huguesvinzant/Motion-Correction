@@ -7,25 +7,27 @@ With the rise of self-management for treatment of musculoskeletal disorders and 
 
 ## Dataset
 
-**Examples of acquired images for each action, subject and camera.**
+**Examples of acquired images for each action, subject and camera and 3D ground truth poses computation.**
 <p float="center">
-  <img src="Images/Dataset.png" width="100%" />
-</p>
-
-**Example of 3D ground truth poses computation.**
-<p float="center">
-  <img src="Images/Dataset2.png" width="100%" />
+  <img src="images/Dataset.png" width="49%" />
+  <img src="images/Dataset2.png" width="49%" />
 </p>
 
 ## Correction model
 
 ### Network architecture
 <p float="center">
-  <img src="Images/corr.png" width="100%" />
+  <img src="images/corr.png" width="100%" />
 </p>
 
 ### Results
-[![Foo](Images/res1.png)](Images/res1.html)
-[![Foo](Images/res2.png)](Images/res2.html)
+<p float="center">
+  <img src="images/res1.png" width="49%" />
+  <img src="images/res2.png" width="49%" />
+  Moving version of the corrections can be observed in:  
+  - images/lunge_plank.html  
+  - images/squat.html
+</p>
+
 
 
