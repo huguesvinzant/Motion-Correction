@@ -24,10 +24,44 @@ With the rise of self-management for treatment of musculoskeletal disorders and 
 <p float="center">
   <img src="images/res1.png" width="49%" />
   <img src="images/res2.png" width="49%" />
-  Moving version of the corrections can be observed in:  
-  - images/lunge_plank.html  
-  - images/squat.html
 </p>
 
+Moving version of these corrections can be observed in:
 
+- images/lunge_plank.html  
+- images/squat.html
+
+## Classification model
+
+### Network architecture
+<p float="center">
+  <img src="images/class.png" width="100%" />
+</p>
+
+### Results
+
+**Action recognition model performance**
+<p float="center">
+  <img src="images/tab1.png" width="100%" />
+</p>
+
+**Motion correction model evaluation**
+<p float="center">
+  <img src="images/tab2.png" width="100%" />
+</p>
+
+## Pipeline
+
+<p float="center">
+  <img src="images/pipeline.png" width="100%" />
+</p>
+
+### Results
+
+<p float="center">
+  <img src="images/pip1.gif" width="49%" />
+  <img src="images/pip2.gif" width="49%" />
+  <img src="images/pip3.gif" width="49%" />
+  <img src="images/pip4.gif" width="49%" />
+</p>
 
