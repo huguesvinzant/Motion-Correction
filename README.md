@@ -66,3 +66,30 @@ Moving version of these corrections can be observed in:
   <img src="images/pip3.gif" width="49%" />
 </p>
 
+## Getting Started
+This has been implemented and tested on Ubuntu 18.04 with python >= 3.7. It supports both GPU and CPU inference.
+If you don't have a suitable device, try running our Colab demo. 
+
+Clone the repo:
+```bash
+git clone https://github.com/huguesvinzant/Motion-Correction.git
+```
+
+Install the requirements using `virtualenv` or `conda`:
+```bash
+# pip
+source VIBE/scripts/install_pip.sh
+
+# conda
+source VIBE/scripts/install_conda.sh
+```
+
+Download VIBE trained model and SMPL model parameters. To do this you can just run:
+```bash
+source scripts/prepare_data.sh
+```
+
+Then, running the demo is as simple as:
+```bash
+python main_vibe_test.py
+```
