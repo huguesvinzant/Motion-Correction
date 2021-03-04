@@ -1,0 +1,38 @@
+{
+  "each_training": 1,
+  "each_visualisation": 1,
+  "th_outliers_early": 1000.0,
+  "th_outliers": 50,
+  "optimize_points": true,
+  "optimize_camera_params": true,
+  "bounds": true,
+  "bounds_cp": [
+    0.3,
+    0.3,
+    0.3,
+    2,
+    2,
+    2,
+    10,
+    10,
+    10,
+    10,
+    0.01,
+    0.01,
+    0,
+    0,
+    0
+  ],
+  "bounds_pt": [
+    1000,
+    1000,
+    1000
+  ],
+  "max_nfev": 200,
+  "max_nfev2": 200,
+  "ftol": 1e-08,
+  "xtol": 1e-08,
+  "loss": "linear",
+  "f_scale": 1,
+  "output_path": "/Users/huguesvinzant/Documents/PHOM/PdM/Code/multiview_calib/examples/pose/output/bundle_adjustment/"
+}
